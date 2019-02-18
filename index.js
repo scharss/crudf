@@ -102,9 +102,9 @@ function updateTask(id,name,description){
                 <input type="text" id="description" placeholder="Descripción" class="form-control">
                 </div>
                 
-                <button  style="display: none" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Tarea</button>
-                <button type="submit" style="display: inline-block" id="button2" class="btn btn-dark"><i class="fas fa-sync-alt"></i> Actualizar Tarea</button>  
-                <button  style="display: inline-block" id="button3" class="btn btn-dark"><i class="fas fa-ban"></i> Cancelar</button>  
+                <p><button  style="display: none" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Tarea</button></p>
+                <p><button type="submit" style="display: inline-block" id="button2" class="btn btn-dark"><i class="fas fa-sync-alt"></i> Actualizar Tarea</button></p>  
+                <p><button  style="display: inline-block" id="button3" class="btn btn-dark"><i class="fas fa-ban"></i> Cancelar</button></p>  
                 
                 </form>
 
