@@ -47,8 +47,8 @@ function readTask(){
     <div class="card-body" style="background-color:#DFE3EA">
              <h5 class="card-title">${taskValue.task}</h5>
              <p class="card-text">${taskValue.description}</p>
-             <p><button type="submit" style="color:white" class="btn btn-dark" onclick="updateTask(${taskValue.id},'${taskValue.task}','${taskValue.description}')"><i class="fas fa-edit"></i> Editar Tarea</button></p>
-             <button type="submit" class="btn btn-dark" onclick="deleteTask(${taskValue.id})"><i class="fas fa-trash-alt"></i> Borrar Tarea</button>
+             <p><button type="submit" style="color:white" class="btn btn-dark" onclick="updateTask(${taskValue.id},'${taskValue.task}','${taskValue.description}')"><i class="fas fa-edit"></i> Editar Servicio</button></p>
+             <button type="submit" class="btn btn-dark" onclick="deleteTask(${taskValue.id})"><i class="fas fa-trash-alt"></i> Borrar Servicio</button>
     </div>
   </div>
   
@@ -73,7 +73,7 @@ function reset(){
                 </div>
                 
                 <button type="submit" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Servicio</button>
-                <button style="display: none" id="button2" class="btn btn-dark"> Editar Tarea</button>  
+                <button style="display: none" id="button2" class="btn btn-dark"> Editar Servicio</button>  
                 <button style="display: none" id="button3" class="btn btn-dark">Cancelar</button>  
                 
                 </form>
@@ -103,7 +103,7 @@ function updateTask(id,name,description){
                 </div>
                 
                 <p><button  style="display: none" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Servicio</button></p>
-                <p><button type="submit" style="display: inline-block" id="button2" class="btn btn-dark"><i class="fas fa-sync-alt"></i> Actualizar Tarea</button></p>  
+                <p><button type="submit" style="display: inline-block" id="button2" class="btn btn-dark"><i class="fas fa-sync-alt"></i> Actualizar Servicio</button></p>  
                 <p><button  style="display: inline-block" id="button3" class="btn btn-dark"><i class="fas fa-ban"></i> Cancelar</button></p>  
                 
                 </form>
