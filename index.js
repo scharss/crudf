@@ -47,7 +47,7 @@ function readTask(){
     <div class="card-body" style="background-color:#DFE3EA">
              <h5 class="card-title">${taskValue.task}</h5>
              <p class="card-text">${taskValue.description}</p>
-             <button type="submit" style="color:white" class="btn btn-dark" onclick="updateTask(${taskValue.id},'${taskValue.task}','${taskValue.description}')"><i class="fas fa-edit"></i> Editar Tarea</button><br>
+             <p><button type="submit" style="color:white" class="btn btn-dark" onclick="updateTask(${taskValue.id},'${taskValue.task}','${taskValue.description}')"><i class="fas fa-edit"></i> Editar Tarea</button></p>
              <button type="submit" class="btn btn-dark" onclick="deleteTask(${taskValue.id})"><i class="fas fa-trash-alt"></i> Borrar Tarea</button>
     </div>
   </div>
