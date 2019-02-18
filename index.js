@@ -72,7 +72,7 @@ function reset(){
                 <input type="text" id="description" placeholder="Descripción" class="form-control">
                 </div>
                 
-                <button type="submit" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Actualizar Tarea</button>
+                <button type="submit" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Servicio</button>
                 <button style="display: none" id="button2" class="btn btn-dark"> Editar Tarea</button>  
                 <button style="display: none" id="button3" class="btn btn-dark">Cancelar</button>  
                 
@@ -102,7 +102,7 @@ function updateTask(id,name,description){
                 <input type="text" id="description" placeholder="Descripción" class="form-control">
                 </div>
                 
-                <p><button  style="display: none" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Tarea</button></p>
+                <p><button  style="display: none" id="button1" class="btn btn-dark"><i class="fas fa-plus"></i> Agregar Servicio</button></p>
                 <p><button type="submit" style="display: inline-block" id="button2" class="btn btn-dark"><i class="fas fa-sync-alt"></i> Actualizar Tarea</button></p>  
                 <p><button  style="display: inline-block" id="button3" class="btn btn-dark"><i class="fas fa-ban"></i> Cancelar</button></p>  
                 
